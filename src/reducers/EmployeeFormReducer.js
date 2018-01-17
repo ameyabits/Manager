@@ -11,6 +11,7 @@ export default (state = INITIAL_STATE, action) => {
         case EMPLOYEE_UPDATE:
          return { ...state, [action.payload.prop]: action.payload.value };
         default:
-        return state;
+            return state;
+            
     }
 };
